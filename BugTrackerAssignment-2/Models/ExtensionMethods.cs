@@ -24,5 +24,13 @@ namespace BugTrackerAssignment_2.Models
          }
         }
 
+        public static decimal ToDigitsOnly(this string value)
+        {
+            decimal d = "abc123".ToDigitsOnly();
+            decimal e = "z1x2c3v4".ToDigitsOnly();
+            decimal f = "#$ss223%^".ToDigitsOnly();
+
+        }
+
     }
 }
