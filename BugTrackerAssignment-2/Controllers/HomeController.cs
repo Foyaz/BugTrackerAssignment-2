@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BugTrackerAssignment_2.Models.Action_Filter;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,6 +9,7 @@ namespace BugTrackerAssignment_2.Controllers
 {
     public class HomeController : Controller
     {
+        [CrawlerDetectingActionFilter]
         public ActionResult Index()
         {
             return View();
