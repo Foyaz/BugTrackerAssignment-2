@@ -10,7 +10,7 @@ namespace BugTrackerAssignment_2.Controllers
     public class HomeController : Controller
     {
         [CrawlerDetectingActionFilter]
-        public ActionResult Index()
+        public ActionResult Index(string viewName)
         {
             return View();
         }
