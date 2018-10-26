@@ -151,7 +151,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\HtmlHelper.cs" />
     <Compile Include="Models\Action Filter\CrawlerDetectingActionFilter.cs" />
+    <Compile Include="Models\ExtensionMethods.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
